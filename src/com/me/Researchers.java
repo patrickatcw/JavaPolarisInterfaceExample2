@@ -1,6 +1,6 @@
 package com.me;
 
-public abstract class Researchers implements IPerson{
+public class Researchers implements IPerson{
 
     private String firstName;
     private String lastName;
@@ -20,6 +20,11 @@ public abstract class Researchers implements IPerson{
     @Override
     public String lastName() {
         return lastName;
+    }
+
+    @Override
+    public String organization() {
+        return null;
     }
 
     @Override
